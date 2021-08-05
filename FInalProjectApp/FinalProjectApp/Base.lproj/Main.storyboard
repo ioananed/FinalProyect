@@ -1086,8 +1086,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="dataScienceButton:" destination="Akr-cL-cRh" eventType="touchUpInside" id="VHQ-gz-CLn"/>
-                                    <action selector="dataSciencePressed:" destination="Akr-cL-cRh" eventType="touchUpInside" id="zT6-Zm-pQL"/>
                                     <segue destination="7lX-3R-7GG" kind="show" id="pRi-CF-rGV"/>
                                 </connections>
                             </button>
@@ -1112,7 +1110,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="softwareDevPressed:" destination="Akr-cL-cRh" eventType="touchUpInside" id="fwS-XS-AKj"/>
                                     <segue destination="7lX-3R-7GG" kind="show" id="Js3-ri-YaB"/>
                                 </connections>
                             </button>
@@ -1137,7 +1134,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="programmingPressed:" destination="Akr-cL-cRh" eventType="touchUpInside" id="Uhe-hR-AZa"/>
                                     <segue destination="2SU-Cq-Lg0" kind="show" id="I9U-c8-O3N"/>
                                 </connections>
                             </button>
@@ -1146,9 +1142,6 @@
                         <color key="backgroundColor" red="0.93588846920000002" green="0.62808251380000002" blue="0.47675865890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="dSE-PG-whT"/>
-                    <connections>
-                        <outlet property="questionLabelVC9" destination="Wv1-HF-Y7g" id="5GZ-ey-Arm"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mTr-gl-Vdg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2173,7 +2166,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="93w-Zt-7FG"/>
+        <segue reference="Js3-ri-YaB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
